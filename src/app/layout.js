@@ -13,11 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-           <div className="flex gap-6  mx-auto">
-               <div className="border-r-slate-700 border-r-2 p-8 lg:px-12">
+           <div className="flex gap-1  mx-auto">
+               <div className=" py-3 pl-3 lg:pl-8">
                    <SideNavbar></SideNavbar>
                </div>
-               <div>
+               <div className="w-full shadow m-3 ">
                    {children}
                </div>
            </div>
