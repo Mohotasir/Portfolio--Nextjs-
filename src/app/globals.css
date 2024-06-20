@@ -3,11 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --custom-gradient: linear-gradient(100deg,#0b0b2e,#000000,#000000,#000000);
+  background: var(--custom-gradient);
+  color: white;
+  min-height: 100vh; /* Ensure it covers the full height */
+  margin: 0; /* Remove default margin */
 }
-
+.profilebg{
+  --custom-gradient: linear-gradient(0deg,#190528,#a876bd);
+  background: var(--custom-gradient);
+}
+.text-gradient {
+  --custom-gradient: linear-gradient(45deg, #644698, #825c9d, #ffffff);
+  background: var(--custom-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.shadow {
+  box-shadow: 
+    3px 3px 5px #000, 
+    0px 3px 2px #19013e, 
+    inset 3px 3px 5px rgba(0, 0, 0, 0.3),
+    inset -3px -3px 5px rgba(183, 169, 169, 0.1); 
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
