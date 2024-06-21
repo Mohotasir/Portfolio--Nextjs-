@@ -22,10 +22,13 @@ export default function SideNavbar() {
           Mohotasir Al Mamun
         </h1>
         <h2 className="bg-slate-900 text-gray-400 py-2 px-4 rounded-xl text-sm font-semibold">
-          FullStack Web Developer
+          Front-end Web Developer
         </h2>
       </div>
       <div className="flex-1 rounded-lg p-5 shadow flex flex-col gap-6 ">
+        <div>
+          <h1 className="text-gradient">Get in touch !</h1>
+        </div>
         <div className="flex gap-2">
           <button className="p-3 text-purple-300 text-xl rounded-lg btn-shadow">
             <MdOutlineMail />
