@@ -22,8 +22,9 @@ export default function RootLayout({ children }) {
             <div className=" flex  justify-end  ">
               <Navbar></Navbar>
             </div>
-
-            {children}
+             <div className="md:px-16">
+                  {children}
+             </div>
           </div>
         </div>
       </body>

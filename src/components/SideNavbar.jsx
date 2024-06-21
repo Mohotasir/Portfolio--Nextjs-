@@ -27,7 +27,7 @@ export default function SideNavbar() {
       </div>
       <div className="flex-1 rounded-lg p-5 shadow flex flex-col gap-6 ">
         <div className="flex gap-2">
-          <button className="p-3 text-purple-300 text-2xl rounded-lg btn-shadow">
+          <button className="p-3 text-purple-300 text-xl rounded-lg btn-shadow">
             <MdOutlineMail />
           </button>
           <div className="text-sm">
@@ -38,7 +38,7 @@ export default function SideNavbar() {
           </div>
         </div>
         <div className="flex gap-2">
-          <button className=" p-3 text-2xl rounded-lg btn-shadow">
+          <button className=" p-3 text-xl rounded-lg btn-shadow">
             <div className="text-gradient text-purple-300">
               <FiPhoneIncoming />
             </div>{" "}
@@ -49,7 +49,7 @@ export default function SideNavbar() {
           </div>
         </div>
         <div className="flex gap-2">
-          <button className="p-3 text-purple-300 text-2xl rounded-lg btn-shadow">
+          <button className="p-3 text-purple-300 text-xl rounded-lg btn-shadow">
             <IoLocationOutline />
           </button>
           <div className="text-sm">
@@ -57,7 +57,7 @@ export default function SideNavbar() {
             <p className="text-gray-500 font-semibold">Dhaka,Bangladesh</p>
           </div>
         </div>
-         <div className="divider"></div>
+         {/* <div className="divider"></div> */}
         <div className="flex md:mt-20 gap-4 justify-center items-center">
           <div className="p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
             <FaFacebook />

@@ -1,7 +1,12 @@
-import React from 'react'
+import PageHeading from "@/components/PageHeading";
 
-export default function page() {
+export default function Aboutpage() {
   return (
-    <div>page</div>
-  )
+    <div>
+      <PageHeading
+       title="ABOUT ME"
+      ></PageHeading>
+      
+    </div>
+  );
 }
