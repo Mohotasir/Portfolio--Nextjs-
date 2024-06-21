@@ -58,7 +58,7 @@ export default function SideNavbar() {
           </div>
         </div>
          <div className="divider"></div>
-        <div className="flex md:mt-24 gap-4 justify-center items-center">
+        <div className="flex md:mt-20 gap-4 justify-center items-center">
           <div className="p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
             <FaFacebook />
           </div>
@@ -68,9 +68,6 @@ export default function SideNavbar() {
           <div className="p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
           <FaGithub />
           </div>
-          {/* <div className="p-3 text-purple-100 text-2xl rounded-full btn-shadow">
-          <FaGithub />
-          </div> */}
         </div>
       </div>
     </div>
