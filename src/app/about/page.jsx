@@ -1,5 +1,7 @@
 import PageHeading from "@/components/PageHeading";
+import Link from "next/link";
 import { FaUserGraduate } from "react-icons/fa";
+import { MdOutlineFileDownload } from "react-icons/md";
 export default function Aboutpage() {
   return (
     <div>
@@ -31,7 +33,7 @@ export default function Aboutpage() {
         </p>
       </div>
       <p className="text-gradient mb-2">My Education !</p>
-      <div className="p-6 flex gap-4 items-center shadow rounded-lg">
+      <div className="p-6 lg:w-[70%] flex gap-4 items-center shadow rounded-lg">
         <div className="text-5xl text-purple-400">
           <FaUserGraduate />
         </div>
@@ -44,6 +46,11 @@ export default function Aboutpage() {
           </p>
           <p className="text-gray-400">University of Asia Pacific</p>
         </div>
+      </div>
+      <p className="text-gradient mt-6 mb-3">Get Resume !</p>
+      <div className="flex gap-6">
+      <button className=" shadow  py-2 px-6 rounded-full text-gray-400 hover:bg-purple-950 flex items-center gap-2"><span className="button-icon text-2xl text-purple-300"><MdOutlineFileDownload /></span> Download Resume</button>
+      <Link className="pulsate shadow  py-2 px-6 rounded-full text-gray-400 hover:bg-purple-950" href="https://drive.google.com/file/d/1m4GyOYUVgl-KvOWvNnGiko3Qi4Mna7M3/view">See Resume</Link>
       </div>
     </div>
   );

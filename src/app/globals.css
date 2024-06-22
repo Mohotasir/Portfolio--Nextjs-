@@ -65,3 +65,21 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes pulseShadow {
+  0% {
+    box-shadow: 0 0 5px 2px rgba(128, 0, 128, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 10px 5px rgba(126, 10, 126, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 5px 2px rgba(128, 0, 128, 0.7);
+  }
+}
+
+.pulsate {
+  animation: pulseShadow 2s infinite;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
