@@ -37,7 +37,7 @@ export default function MobileNavbar() {
     ];
 
     return (
-        <div className="fixed flex flex-col right-0 top-12 border-2 border-gray-700 bg-black rounded-l-full gap-3 md:gap-6  py-8">
+        <div className="fixed z-10 flex flex-col right-0 top-12 border-2 border-gray-700 bg-black rounded-l-full gap-3 md:gap-6  py-8">
             {
                 list.map((li, index) => (
                     <Link className={`text-xl flex justify-center items-center w-10 h-10 text-gray-300 rounded-full ${pathName === li.link ? 'text-purple-300 shadow' : 'text-gray-300'}`} href={li.link} key={index}>{li.title}</Link>
