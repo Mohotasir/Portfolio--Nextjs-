@@ -5,6 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import Link from "next/link";
 export default function SideNavbar() {
   return (
     <div className="flex gap-1 flex-col md:min-h-[97vh] z-10 md:fixed ">
@@ -62,15 +63,15 @@ export default function SideNavbar() {
         </div>
          {/* <div className="divider"></div> */}
         <div className="flex md:mt-20 gap-4 justify-center items-center">
-          <div data-tip="facebook" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
+          <Link href='https://web.facebook.com/talukder.tasin.3' data-tip="facebook" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
             <FaFacebook />
-          </div>
-          <div data-tip="Linkedin" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
+          </Link>
+          <Link href='https://www.linkedin.com/in/mohotasir/' data-tip="Linkedin" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
           <FaLinkedin />
-          </div>
-          <div data-tip="Github" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
+          </Link>
+          <Link href='https://github.com/mohotasir' data-tip="Github" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
           <FaGithub />
-          </div>
+          </Link>
         </div>
       </div>
     </div>

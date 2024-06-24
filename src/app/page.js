@@ -21,7 +21,7 @@ export default function Home() {
     <main className={kanit.className}>
       <div className="flex mt-6 lg:mt-0 gap-2 items-center text-4xl">
         👋
-        <h1 className="text-4xl font-semibold text-gradient">
+        <h1 className="text-5xl  text-gradient">
           Say Hi, From Mohotasir.
         </h1>
       </div>
