@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="flex shadow rounded-bl-full px-8 gap-6 p-4">
             {
                 list.map((li, index) => (
-                    <Link className={` text-gray-300 text-sm px-3  py-1 rounded-full ${pathName === li.link ? 'text-purple-500 shadow' : 'text-gray-300'}`} href={li.link} key={index}>{li.title}</Link>
+                    <Link className={` text-gray-300 text-sm px-3  py-1 rounded-full ${pathName === li.link ? 'text-purple-300 shadow' : 'text-gray-300'}`} href={li.link} key={index}>{li.title}</Link>
                 ))
             }
         </div>

@@ -1,0 +1,43 @@
+
+[
+    {
+        "id": 1,
+        "project_name": "(TRENDZ)-A Product Hunting website",
+        "live_url": "https://phunt-9a498.web.app",
+        "technologies": ["HTML", "CSS", "JavaScript","React","ExpressJS","Tailwind","MongoDB","Firebase"],
+        "img": "https://i.postimg.cc/pTjGw7vY/screencapture-phunt-9a498-web-app-2024-06-23-14-40-25.png",
+        "features": [
+            "User-friendly interface",
+            "Responsive design",
+            "Advanced search functionality",
+            "Product filtering and sorting"
+        ]
+    },
+    {
+        "id": 2,
+        "project_name": "(Qme)-An Alternative Product Information System",
+        "live_url": "https://product-information-syst-ea434.web.app/",
+        "technologies": ["HTML", "CSS", "JavaScript","React","ExpressJS","Tailwind","MongoDB","Firebase"],
+        "img": "https://i.postimg.cc/tCpSc2MW/screencapture-product-information-syst-ea434-web-app-2024-06-23-14-43-14.png",
+        "features": [
+            "Real-time product updates",
+            "User reviews and ratings",
+            "Secure user authentication",
+            "Detailed product descriptions"
+        ]
+    },
+    {
+        "id": 3,
+        "project_name": "(Tourify)-A Tourism Management System",
+        "live_url": "https://tourism-3cbc5.web.app",
+        "technologies":  ["HTML", "CSS", "JavaScript","React","ExpressJS","Tailwind","MongoDB","Firebase"],
+        "img": "https://i.postimg.cc/GpWzxQDB/screencapture-tourism-3cbc5-web-app-2024-06-23-14-41-47.png",
+        "features": [
+            "Tour package management",
+            "User booking system",
+            "Interactive maps",
+            "Customer support chat"
+        ]
+    }
+]
+

@@ -8,6 +8,11 @@
   color: white;
   margin: 0; 
 }
+.detailbg{
+  --custom-gradient: linear-gradient(100deg,#060625,#362349,#442072);
+  background: var(--custom-gradient);
+  color: white;
+}
 .profilebg{
   --custom-gradient: linear-gradient(0deg,#190528,#a876bd);
   background: var(--custom-gradient);
