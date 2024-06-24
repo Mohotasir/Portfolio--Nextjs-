@@ -37,7 +37,7 @@ export default function SwiperComponent() {
   );
 
   return (
-    <div className="">
+    <div className=" mt-8 md:mt-0">
       <div className="py-6 md:py-0 mx-auto items-center justify-center">
         <div className="mt-6 max-w-screen-lg mx-auto mulish relative">
           <Swiper
@@ -53,7 +53,7 @@ export default function SwiperComponent() {
             }}
             modules={[Pagination, Navigation]}
             className={`mySwiper ${styles.swiperContainer}`}
-            slidesPerView={2}
+            slidesPerView={1}
             breakpoints={{
               640: {
                 slidesPerView: 1,
@@ -125,7 +125,7 @@ export default function SwiperComponent() {
         </div>
       </div>
       {showModal && selectedProject && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-80 flex flex-col items-center justify-center z-50">
+        <div className="fixed top-0 left-0 w-[90%] mx-auto md:w-full h-full bg-black bg-opacity-80 flex flex-col items-center justify-center z-50">
           <div className="detailbg relative rounded-lg z-10">
             <div
               onClick={() => setShowModal(false)}
