@@ -37,7 +37,7 @@ export default function Home() {
             {" "}
             A passionate Frontend Developer specialized in the MERN stack. I
             craft dynamic, responsive, and user-friendly web applications.
-            <span className="text-gradient text-xl font-sans"> Let's
+            <span className="text-gradient text-xl font-sans"> Lets
             turn your ideas into reality.</span>
           </p>
           <Link
