@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className="bodystyle min-h-screen flex flex-col md:flex-row gap-1 mx-auto ">
-        <div className="relative md:hidden">
+        <div className="relative md:hidden z-30">
                 <MobileNavbar></MobileNavbar>
             </div>
           <div className="my-3 mx-3 md:mx-0 md:pl-3 lg:pl-3  md:w-[360px] ">

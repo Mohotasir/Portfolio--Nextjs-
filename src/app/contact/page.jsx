@@ -1,13 +1,16 @@
 import PageHeading from '@/components/PageHeading';
+import Image from 'next/image';
 import React from 'react';
 
 export default function ContactPage() {
   return (
     <div>
-      <PageHeading title="CONTACT ME" />
-      <div>
-        <div className="shadow my-12 p-8 rounded-lg  w-full max-w-md">
-          <form className="space-y-6">
+      <div className='hidden md:flex'><PageHeading title="CONTACT ME" /></div>
+      <h1 className='text-gradient text-sm max-w-80 mt-3 font-bold'>Feel free to contact with me.Help me to turn your idear into reality !</h1>
+      <div className='lg:ml-48'>
+        <div className="relative flex"> 
+            <Image className='hidden lg:flex absolute -top-28 left-16 lg:-top-12 lg:left-72 ' src="/mail2.svg" alt='img' width={400} height={1}></Image>
+            <form className="bg-black space-y-6 shadow my-8 p-8 rounded-lg   w-full max-w-md z-10 border-gray-700 border">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-500">Name</label>
               <div className="mt-1">
@@ -47,13 +50,14 @@ export default function ContactPage() {
             <div>
               <button
                 type="submit"
-                className="w-full flex justify-center items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium bg-purple-600"
+                className="w-full flex justify-center items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium bg-purple-900"
               >
                 Send me
                 <span className="ml-2 text-xl">✈️</span>
               </button>
             </div>
           </form>
+           
         </div>
       </div>
     </div>
