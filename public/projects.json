@@ -4,19 +4,23 @@
         "id": 1,
         "project_name": "(TRENDZ)-A Product Hunting website",
         "live_url": "https://phunt-9a498.web.app",
+        "client": "https://github.com/Mohotasir/productHunt_clientSide",
+        "server" : "https://github.com/Mohotasir/productHunt_serverSide",
         "technologies": ["HTML", "CSS", "JavaScript","React","ExpressJS","Tailwind","MongoDB","Firebase"],
         "img": "https://i.postimg.cc/pTjGw7vY/screencapture-phunt-9a498-web-app-2024-06-23-14-40-25.png",
         "features": [
-            "User-friendly interface",
-            "Responsive design",
-            "Advanced search functionality",
-            "Product filtering and sorting"
+            "User Roles: Supports different user roles including Normal Users, Moderators, and Admins, each with specific permissions.",
+            "Product Management: Users can submit new products, upvote products, and post reviews. Moderators can approve/reject products and handle reports.",
+            "Pagination and Search: Efficient product browsing with pagination and search functionality based on tags.",
+            "Payment Method: Users can make payments on this website."
         ]
     },
     {
         "id": 2,
         "project_name": "(Qme)-An Alternative Product Information System",
         "live_url": "https://product-information-syst-ea434.web.app/",
+        "client": "https://github.com/Mohotasir/PIS_clientSide",
+        "server" : "https://github.com/Mohotasir/PIS_server",
         "technologies": ["HTML", "CSS", "JavaScript","React","ExpressJS","Tailwind","MongoDB","Firebase"],
         "img": "https://i.postimg.cc/tCpSc2MW/screencapture-product-information-syst-ea434-web-app-2024-06-23-14-43-14.png",
         "features": [
@@ -30,6 +34,8 @@
         "id": 3,
         "project_name": "(Tourify)-A Tourism Management System",
         "live_url": "https://tourism-3cbc5.web.app",
+        "client": "https://github.com/Mohotasir/Tourism_clientSide",
+        "server" : "https://github.com/Mohotasir/Tourism_serverSide",
         "technologies":  ["HTML", "CSS", "JavaScript","React","ExpressJS","Tailwind","MongoDB","Firebase"],
         "img": "https://i.postimg.cc/GpWzxQDB/screencapture-tourism-3cbc5-web-app-2024-06-23-14-41-47.png",
         "features": [
