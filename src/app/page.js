@@ -40,12 +40,13 @@ export default function Home() {
             <span className="text-gradient text-xl font-sans"> Lets
             turn your ideas into reality.</span>
           </p>
-          <Link
+          <a
             className="pulsate shadow py-2 px-6 rounded-full text-gray-400 hover:bg-purple-950"
-            href="https://drive.google.com/file/d/1m4GyOYUVgl-KvOWvNnGiko3Qi4Mna7M3/view"
+            href="/my_RESUME.pdf"
+            download="tahsin's_resume"
           >
-            See Resume
-          </Link>
+            Download Resume
+          </a>
         </div>
 
         <div className="w-full mb-6 md:mb-0 lg:w-1/2">

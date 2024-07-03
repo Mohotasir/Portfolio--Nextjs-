@@ -8,7 +8,7 @@ export default function Aboutpage() {
       <PageHeading title="ABOUT ME"></PageHeading>
       <div className=" pb-8 md:pb-0 md:py-8 text-gray-400">
         <p className=" w-full overflow-hidden">
-          Hello! I am a skilled web developer with 1 years of experience
+          Hello! I am <span className="text-lg font-semibold text-gradient">Mohotasir Al Mamun,</span> a skilled web developer with 1 years of experience
           designing, developing, and deploying websites and web applications. My
           expertise spans across{" "}
           <span className=" font-semibold">
@@ -17,10 +17,8 @@ export default function Aboutpage() {
           </span>{" "}
           I am passionate about creating beautiful, responsive, and
           user-friendly websites that deliver exceptional user experiences. In
-          my [1 years] of experience, I have worked with a diverse range of
-          clients, including startups, small businesses, and large corporations.
-          I have a proven track record of delivering high-quality work on time
-          and within budget. I am constantly learning and staying up-to-date
+          my [1 years] of experience, I have a proven track record of delivering high-quality work on time
+          . I am constantly learning and staying up-to-date
           with the latest web development trends and technologies.
         </p>
         <p>
@@ -28,8 +26,7 @@ export default function Aboutpage() {
           user-friendly but at the same time attractive. Moreover, I add
           personal touch to your product and make sure that is eye-catching and
           easy to use. My aim is to bring across your message and identity in
-          the most creative way. I created web design for many famous brand
-          companies.
+          the most creative way.
         </p>
       </div>
       <p className="text-gradient mb-2 md:mt-8">My Education !</p>
