@@ -46,7 +46,9 @@ export default function Aboutpage() {
       </div>
       <p className="text-gradient mt-6 mb-3">Get Resume !</p>
       <div className="flex flex-col md:flex-row gap-3 md:gap-6 mb-8">
-      <button className=" shadow  py-2 px-6 rounded-full text-gray-400 hover:bg-purple-950 flex items-center gap-2"><span className="button-icon text-2xl text-purple-300"><MdOutlineFileDownload /></span> Download Resume</button>
+
+      <a href='/my_RESUME.pdf' download="tahsin's_resume" className=" shadow  py-2 px-6 rounded-full text-gray-400 hover:bg-purple-950 flex items-center gap-2"><span className="button-icon text-2xl text-purple-300"><MdOutlineFileDownload /></span> Download Resume</a>
+
       <Link className="pulsate shadow  py-2 px-6 rounded-full text-gray-400 hover:bg-purple-950" href="https://drive.google.com/file/d/1m4GyOYUVgl-KvOWvNnGiko3Qi4Mna7M3/view">See Resume</Link>
       </div>
     </div>

@@ -9,14 +9,15 @@ import { IoLogoCss3 } from "react-icons/io";
 import { FaGitAlt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 export default function SkillPage() {
   return (
     <div>
       <PageHeading title="MY SKILLS" />
-      <div className="flex justify-center items-center lg:ml-28">
-        <div className="">
-          <div className="grid grid-cols-5 gap-36 mt-8 place-items-center ">
+      <div className="flex justify-center items-center">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-2">
             <SkillCard
               icon={
                 <div className="text-[#F7DF1E]">
@@ -53,9 +54,7 @@ export default function SkillPage() {
               title="Next.Js"
               level="Beginner"
             />
-          </div>
-
-          <div className="grid grid-cols-4  ml-4 place-items-center">
+          
             <SkillCard
               icon={
                 <div className="text-[#38BDF8]">
@@ -83,9 +82,7 @@ export default function SkillPage() {
               title="CSS3"
               level="Expert"
             />
-          </div>
-
-          <div className="grid grid-cols-4  md:ml-48 place-items-center">
+          
             <SkillCard
               icon={
                 <div className="text-[#F05032]">
@@ -104,16 +101,25 @@ export default function SkillPage() {
               title="HTML5"
               level="Expert"
             />
-          </div>
-
-          <div className="grid grid-cols-1 gap-2  place-items-center -ml-48">
+  
             <SkillCard
               icon={<div className="text-[#47A248]"><SiMongodb /></div>}
               title="MongoDB"
               level="Intermediate"
             />
-          </div>
+         
         </div>
+      </div>
+      <div className="mt-8">
+          <h1 className="text-gradient text-lg font-bold">I have Also Knowledge in :</h1>
+          <div className="mx-auto">
+          <div className="flex flex-col md:flex-row gap-3 justify-around items-center lg:w-1/2 mx-auto ">
+              <p className="flex items-center gap-2 text-2xl font-bold shadow px-10 py-3 rounded-lg text-orange-400 ">C</p>
+              <p className="flex items-center gap-2 text-2xl font-bold shadow px-10 py-3 rounded-lg text-orange-400 ">C++</p>
+              <p className="flex items-center gap-2 text-2xl font-bold shadow px-10 py-3 rounded-lg text-gray-300 "><span className="text-[#E76F00] text-4xl"><FaJava /></span> JAVA</p>
+              <p className="flex items-center gap-2 text-2xl font-bold shadow px-10 py-3 rounded-lg text-[#FFD343] "><span className="text-[#3776AB]"><FaPython /></span> PYTHON</p>
+          </div>
+          </div>
       </div>
     </div>
   );
