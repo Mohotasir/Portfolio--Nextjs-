@@ -19,14 +19,14 @@ const kanit = Kanit({
 export default function Home() {
   return (
     <main className={kanit.className}>
-      <div className="flex mt-6 lg:mt-0 gap-2 items-center text-4xl">
+      <div className="flex mt-6 lg:mt-0 gap-2 items-center text-4xl" data-aos="fade-down" data-aos-duration="800">
         👋
         <h1 className="text-2xl font-semibold text-gradient">
           Say Hi, From Mohotasir.
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row lg:gap-6 justify-center items-center  lg:h-[60vh]">
-        <div className="lg:w-1/2 py-12 px-3">
+        <div className="lg:w-1/2 py-12 px-3" data-aos="zoom-in-right" data-aos-duration="800">
           <div>
             <h1 className="text-2xl font-light text-gray-300">
               I am MERN stack based -
@@ -51,82 +51,82 @@ export default function Home() {
 
         <div className="w-full mb-6 md:mb-0 lg:w-1/2">
           <div className="">
-            <div className="grid grid-cols-4  mt-8 place-items-center mb-4 md:mb-10 ">
+            <div className="grid grid-cols-4  mt-8 place-items-center mb-4 md:mb-10 "  data-aos="zoom-in" data-aos-duration="1000">
               <Icons
                 icon={
-                  <div className="text-[#F7DF1E]">
+                  <div className="text-[#F7DF1E] hover:rotate-45 duration-200 ease-in-out">
                     <IoLogoJavascript />
                   </div>
                 }
               />
               <Icons
                 icon={
-                  <div className="text-[#61DAFB]">
+                  <div className="text-[#61DAFB] hover:rotate-45 duration-200 ease-in-out">
                     <FaReact />
                   </div>
                 }
               />
               <Icons
                 icon={
-                  <div className="text-[#339933]">
+                  <div className="text-[#339933] hover:rotate-45 duration-200 ease-in-out">
                     <FaNodeJs />{" "}
                   </div>
                 }
               />
               <Icons
                 icon={
-                  <div className="bg-black">
+                  <div className="bg-black hover:rotate-45 duration-200 ease-in-out">
                     <RiNextjsLine />
                   </div>
                 }
               />
             </div>
 
-            <div className="grid grid-cols-3 place-items-center mb-3 md:mb-6">
+            <div className="grid grid-cols-3 place-items-center mb-3 md:mb-6"  data-aos="zoom-in" data-aos-duration="2000">
               <Icons
                 icon={
-                  <div className="text-[#38BDF8]">
+                  <div className="text-[#38BDF8] hover:rotate-45 duration-200 ease-in-out">
                     <SiTailwindcss />
                   </div>
                 }
               />
               <Icons
                 icon={
-                  <div className="text-[#7952B3]">
+                  <div className="text-[#7952B3] hover:rotate-45 duration-200 ease-in-out">
                     <FaBootstrap />
                   </div>
                 }
               />
               <Icons
                 icon={
-                  <div className="text-[#264DE4]">
+                  <div className="text-[#264DE4] hover:rotate-45 duration-200 ease-in-out">
                     <IoLogoCss3 />
                   </div>
                 }
               />
             </div>
 
-            <div className="grid grid-cols-2   place-items-center">
+            <div className="grid grid-cols-2   place-items-center"  data-aos="zoom-in" data-aos-duration="3000">
               <Icons
                 icon={
-                  <div className="text-[#F05032]">
+                  <div className="text-[#F05032] hover:rotate-45 duration-200 ease-in-out">
                     <FaGitAlt />
                   </div>
                 }
               />
               <Icons
                 icon={
-                  <div className="text-[#E34F26]">
+                  <div className="text-[#E34F26] hover:rotate-45 duration-200 ease-in-out">
                     <FaHtml5 />
                   </div>
                 }
               />
             </div>
 
-            <div className="grid grid-cols-1 gap-2  place-items-center ">
+            <div className="grid grid-cols-1 gap-2  place-items-center "  data-aos="zoom-in" data-aos-duration="3000">
               <Icons
                 icon={
-                  <div className="text-[#47A248]">
+                  <div className="text-[#47A248] hover:rotate-180 duration-200 ease-in-out">
                     <SiMongodb />
                   </div>
                 }

@@ -6,7 +6,7 @@ export default function Aboutpage() {
   return (
     <div>
       <PageHeading title="ABOUT ME"></PageHeading>
-      <div className=" pb-8 md:pb-0 md:py-8 text-gray-400">
+      <div className=" pb-8 md:pb-0 md:py-8 text-gray-400"  data-aos="zoom-in" data-aos-duration="900">
         <p className=" w-full overflow-hidden">
           Hello! I am <span className="text-lg font-semibold text-gradient">Mohotasir Al Mamun,</span> a skilled web developer with 1 years of experience
           designing, developing, and deploying websites and web applications. My
@@ -29,8 +29,8 @@ export default function Aboutpage() {
           the most creative way.
         </p>
       </div>
-      <p className="text-gradient mb-2 md:mt-8">My Education !</p>
-      <div className="p-6 lg:w-[70%] flex gap-4 items-center shadow rounded-lg">
+      <p className="text-gradient mb-2 md:mt-8" data-aos="zoom-in" data-aos-duration="1200" >My Education !</p>
+      <div className="p-6 lg:w-[70%] flex gap-4 items-center shadow rounded-lg" data-aos="zoom-in" data-aos-duration="2000">
         <div className="text-5xl text-purple-400">
           <FaUserGraduate />
         </div>
@@ -44,8 +44,8 @@ export default function Aboutpage() {
           <p className="text-gray-400">University of Asia Pacific</p>
         </div>
       </div>
-      <p className="text-gradient mt-6 mb-3">Get Resume !</p>
-      <div className="flex flex-col md:flex-row gap-3 md:gap-6 mb-8">
+      <p className="text-gradient mt-6 mb-3"data-aos="zoom-in" data-aos-duration="1400">Get Resume !</p>
+      <div className="flex flex-col md:flex-row gap-3 md:gap-6 mb-8"data-aos="zoom-in" data-aos-duration="1400">
 
       <a href='/my_RESUME.pdf' download="tahsin's_resume" className=" shadow  py-2 px-6 rounded-full text-gray-400 hover:bg-purple-950 flex items-center gap-2"><span className="button-icon text-2xl text-purple-300"><MdOutlineFileDownload /></span> Download Resume</a>
 

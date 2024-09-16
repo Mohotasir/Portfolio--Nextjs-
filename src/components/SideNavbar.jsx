@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function SideNavbar() {
   return (
     <div className="flex gap-1 flex-col md:min-h-[97vh] z-10 md:fixed ">
-      <div className=" shadow p-5 flex rounded-xl flex-col justify-center items-center">
+      <div className=" shadow p-5 flex rounded-xl flex-col justify-center items-center" data-aos="fade-down" data-aos-duration="800">
         <div className="profilebg  shadow-purple-700 rounded-full ">
           <Image
             className="rounded-full "
@@ -26,7 +26,7 @@ export default function SideNavbar() {
           Front-end Web Developer
         </h2>
       </div>
-      <div className="flex-1 hidden rounded-lg p-5 shadow md:flex flex-col gap-6 ">
+      <div className="flex-1 hidden rounded-lg p-5 shadow md:flex flex-col gap-6 " data-aos="fade-up" data-aos-duration="800">
         <div>
           <h1 className="text-gradient">Get in touch !</h1>
         </div>
@@ -63,7 +63,7 @@ export default function SideNavbar() {
         </div>
          {/* <div className="divider"></div> */}
         <div className="flex md:mt-20 gap-4 justify-center items-center">
-          <Link href='https://web.facebook.com/talukder.tasin.3' data-tip="facebook" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
+          <Link href='https://web.facebook.com/talukder.tasin.3' data-tip="facebook" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow" >
             <FaFacebook />
           </Link>
           <Link href='https://www.linkedin.com/in/mohotasir/' data-tip="Linkedin" className="tooltip p-3 bg-primary text-purple-100 text-xl rounded-full btn-shadow">
@@ -73,6 +73,7 @@ export default function SideNavbar() {
           <FaGithub />
           </Link>
         </div>
+        
       </div>
     </div>
   );
