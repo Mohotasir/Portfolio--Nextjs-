@@ -111,7 +111,7 @@ export default function SkillPage() {
         </div>
       </div>
       <div className="mt-8">
-          <h1 className="text-gradient text-lg font-bold">I have Also Knowledge in :</h1>
+          
           <div className="mx-auto">
           <div className="flex flex-col md:flex-row gap-3 justify-around items-center lg:w-1/2 mx-auto ">
               <p className="flex items-center gap-2 text-2xl font-bold shadow px-10 py-3 rounded-lg text-orange-400 ">C</p>
