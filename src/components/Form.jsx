@@ -8,12 +8,12 @@ export default function Form() {
         const form = e.target;
 
         emailjs
-          .sendForm('service_mmvrfb9', 'template_uoisbbq', form , '5hR4F0LdR7okpu9VH')
+          .sendForm('service_m3nrmsk', 'template_uoisbbq', form , '5hR4F0LdR7okpu9VH')
           .then(
             () => {
                 Swal.fire({
                     title: "Success!",
-                    text: "Email send successfully!",
+                    text: "Email sent successfully!",
                     icon: "success"
                   });
             },
